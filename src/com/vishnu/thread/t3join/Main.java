@@ -1,4 +1,4 @@
-package com.vishnu.thread2.join;
+package com.vishnu.thread.t3join;
 
 
 import java.math.BigInteger;

@@ -1,4 +1,4 @@
-package com.vishnu.thread3.optimizinglatency;
+package com.vishnu.thread.t4optimizinglatency;
 
 
 import javax.imageio.ImageIO;

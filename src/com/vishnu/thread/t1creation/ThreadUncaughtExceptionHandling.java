@@ -1,4 +1,4 @@
-package com.vishnu.thread0.creation;
+package com.vishnu.thread.t1creation;
 
 
 public class ThreadUncaughtExceptionHandling {
