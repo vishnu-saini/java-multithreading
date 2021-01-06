@@ -8,10 +8,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Optimizing for Latency Part 2 - Image Processing
- * https://www.udemy.com/java-multithreading-concurrency-performance-optimization
- */
 public class Main {
     public static final String SOURCE_FILE = "./resources/many-flowers.jpg";
     public static final String DESTINATION_FILE = "./out/many-flowers.jpg";
