@@ -1,4 +1,4 @@
-package com.vishnu.thread6.resourcesharing;
+package com.vishnu.thread.t6resourcesharing;
 
 public class WithoutSynchronization {
     public static void main(String[] args) throws InterruptedException {
