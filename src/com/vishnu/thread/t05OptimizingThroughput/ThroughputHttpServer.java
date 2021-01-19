@@ -1,4 +1,4 @@
-package com.vishnu.thread.t5optimizingthroughput;
+package com.vishnu.thread.t05OptimizingThroughput;
 
 import java.io.IOException;
 import java.io.OutputStream;

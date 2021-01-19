@@ -1,4 +1,4 @@
-package com.vishnu.thread.t7volatileandatomicoperation;
+package com.vishnu.thread.t07VolatileAndAtomicOperation;
 import java.util.Random;
 
 

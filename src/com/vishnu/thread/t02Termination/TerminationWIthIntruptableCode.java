@@ -1,4 +1,4 @@
-package com.vishnu.thread.t2termination;
+package com.vishnu.thread.t02Termination;
 
 public class TerminationWIthIntruptableCode {
 	public static void main(String[] args) {

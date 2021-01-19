@@ -1,6 +1,6 @@
-package com.vishnu.thread.t6resourcesharing;
+package com.vishnu.thread.t06ResourceSharing;
 
-public class WithoutSynchronization {
+public class WithSynchronization {
     public static void main(String[] args) throws InterruptedException {
         InventoryCounter inventoryCounter = new InventoryCounter();
         IncrementingThread incrementingThread = new IncrementingThread(inventoryCounter);
@@ -50,16 +50,24 @@ public class WithoutSynchronization {
     private static class InventoryCounter {
         private int items = 0;
 
+        Object lock = new Object();
+
         public void increment() {
-            items++;
+            synchronized (this.lock) {
+                items++;
+            }
         }
 
         public void decrement() {
-            items--;
+            synchronized (this.lock) {
+                items--;
+            }
         }
 
         public int getItems() {
-            return items;
+            synchronized (this.lock) {
+                return items;
+            }
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.vishnu.thread.t2termination;
+package com.vishnu.thread.t02Termination;
 
 import java.math.BigInteger;
 

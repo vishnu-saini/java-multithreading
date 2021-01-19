@@ -1,4 +1,4 @@
-package com.vishnu.thread.t1creation;
+package com.vishnu.thread.t01Creation;
 
 
 public class ThreadPriority {
